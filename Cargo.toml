@@ -9,7 +9,12 @@ description = "An efficient and persistant key value store"
 
 [dependencies]
 structopt = "~0.2.18"
+failure = "0.1.5"
+serde = { version = "1.0.98", features = ["derive"] }
+serde_json = "1.0.40"
 
 [dev-dependencies]
 assert_cmd = "0.11.0"
 predicates = "1.0.0"
+tempfile = "3.0.7"
+walkdir = "2.2.7"
